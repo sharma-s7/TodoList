@@ -58,3 +58,12 @@ clearAllBtn.addEventListener("click", clearAllTasks);
 
 // Initial render
 displayTasks();
+
+function updateTime() {
+    const timeElement = document.getElementById("time");
+    const now = new Date().toLocaleTimeString();
+    timeElement.textContent = now;
+}
+
+updateTime();
+setInterval(updateTime, 1000);
