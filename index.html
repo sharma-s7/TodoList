@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ToDo List</title>
   <link rel="stylesheet" href="todo_list.css">
+  <!-- Android home screen icon -->
+  <link rel="apple-touch-icon" sizes="192x192" href="/public/icon-192.png" />
+  <link rel="icon" sizes="512x512" href="public/icon-512.png" />
 </head>
+
 
 <body>
   <div>
@@ -18,6 +22,8 @@
       <button id="clearCompletedBtn">Clear Completed</button>
       <button id="clearAllBtn">Clear All Tasks</button>
       <ul id="taskList"></ul>
+      <input type="time" id="notifyTime" />
+      <button onclick="setNotification()">Set Notification</button>
     </div>
   
     <script src="./todo_list.js"></script>
