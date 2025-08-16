@@ -1,4 +1,4 @@
-# 📝 Simple Responsive To-Do App
+# 📝 Simple Responsive To-Do list App
 
 A lightweight and responsive To-Do List application built using **HTML**, **CSS**, and **JavaScript**. Users can add tasks, mark them as complete (and uncheck them), and delete the entire list with a single click.
 
@@ -21,3 +21,4 @@ This app supports **native desktop notifications** on Windows using the browser'
 - Works best in **Chrome** or **Edge** with the app open or installed as a PWA.
 
 > 💡 Make sure to allow notifications when prompted by your browser. Notifications will only work if permission is granted and the app is served over HTTPS or `localhost`.
+--------------------------------------
